@@ -1,0 +1,60 @@
+---
+id: "wat-chaiyasit"
+name_th: วัดชัยสิทธิ์
+name_roman: Wat Chaiyasit
+aliases:
+  - Wat Chaiyasit
+  - วัดชัยสิทธิ์
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 17.988056
+lng: 99.652778
+geo_precision: block
+province: Lampang
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: registered Thai historic site
+founded: ""
+status: active
+description: "Buddhist temple in Phrae province, Thailand"
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: wikidata, ref: Q59590655}
+  - {type: wikipedia, ref: วัดชัยสิทธิ์ (จังหวัดแพร่), lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B9%8C_(%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88)"}
+provenance:
+  summary: {source: wikipedia, confidence: crawled}
+photo_count: 1
+article_langs:
+  - th
+---
+
+# Wat Chaiyasit
+*วัดชัยสิทธิ์*
+
+วัดชัยสิทธิ์ เป็นวัดราษฎร์สังกัดคณะสงฆ์ฝ่ายมหานิกาย ตั้งอยู่ในตำบลแม่ป้าก อำเภอวังชิ้น จังหวัดแพร่ ที่ดินตั้งวัดมีเนื้อที่ 5 ไร่ 1 งาน 20 ตารางวา
+วัดชัยสิทธิ์ หรือ วัดพระธาตุขวยปู สร้างเมื่อ พ.ศ. 2446 โดยมีพระครูนันตาเป็นผู้ริเริ่มก่อตั้งวัดขึ้น วัดประดิษฐานของพระธาตุขวยปู (คำว่า ขวยปู หรือขุยปู หมายถึง รูปู) เป็นพระธาตุมีอายุร่วมสมัยกับวัดพระสิงห์ และพระธาตุดอยสุเทพ จังหวัดเชียงใหม่ เล่ากันว่า จันทร์วงศ์ เป็นผู้ก่อสร้างและปฏิสังขรณ์พระธาตุขวยปู ตามตำนานเสลธาตุ ซึ่งเชื่อกันว่าสร้างตั้งแต่สมัยพระเจ้าอโศกมหาราช ที่ทรงสร้างพระเจดีย์ 84000 องค์ทั่วโลก ซึ่งพระธาตุขวยปูหรือพระมหาชินธาตุขวยปูก็เป็นหนึ่งในนั้น พระเจดีย์องค์แรกที่ถูกสร้างขึ้นในเมืองเววาทะภาษิต (เมืองลอง) จากนั้นพังลงมา…
+
+> Source: [วัดชัยสิทธิ์ (จังหวัดแพร่)](https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B9%8C_(%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88)) — CC BY-SA 4.0
+
+## Photographs
+- [Elfidee](https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%82%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B8%B9.jpg) — CC BY-SA 4.0
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->

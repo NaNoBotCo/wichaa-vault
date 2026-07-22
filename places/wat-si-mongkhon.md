@@ -1,0 +1,48 @@
+---
+id: "wat-si-mongkhon"
+name_th: วัดศรีมงคล
+name_roman: Wat Si Mongkhon
+aliases:
+  - Wat Si Mongkhon
+  - วัดศรีมงคล
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 20.160936
+lng: 99.863954
+geo_precision: block
+province: Chiang Rai
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: ""
+founded: ""
+status: active
+description: ""
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: osm, ref: node/2148549125}
+photo_count: 0
+article_langs: []
+---
+
+# Wat Si Mongkhon
+*วัดศรีมงคล*
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->

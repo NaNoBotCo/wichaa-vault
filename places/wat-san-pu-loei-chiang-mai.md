@@ -1,0 +1,58 @@
+---
+id: "wat-san-pu-loei-chiang-mai"
+name_th: วัดสันปูเลย
+name_roman: Wat San Pu Loei
+aliases:
+  - วัดสันปูเลย
+  - Wat San Pu Loei
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 18.831466
+lng: 99.07965
+geo_precision: block
+province: Chiang Mai
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: ""
+founded: ""
+status: active
+description: ""
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: osm, ref: way/253811339}
+  - {type: wikidata, ref: Q13020865}
+  - {type: wikipedia, ref: วัดสันปูเลยสะหลีเวียงแก้ว, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B8%AA%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7"}
+provenance:
+  summary: {source: wikipedia, confidence: crawled}
+photo_count: 0
+article_langs:
+  - th
+---
+
+# Wat San Pu Loei
+*วัดสันปูเลย*
+
+วัดสันปูเลยสะหลีเวียงแก้ว เดิมชื่อ วัดสะหลีเวียงแก้ว สันนิฐานว่าสร้างขึ้นเมื่อประมาณปี พ.ศ. 2280 และได้รกร้างไป โดยได้มีเริ่มการบูรณะและสร้างเสนาสนะขึ้นมาใหม่โดยปรากฏในทะเบียนรายชื่อวัดของจังหวัดเชียงใหม่ และสำนักงานพระพุทธศาสนาแห่งชาติ เมื่อวันที่ 1 ตุลาคม พ.ศ. 2344 และมีชื่อวัดใหม่ว่า “วัดสันปูเลยสะหลีเวียงแก้ว” ตั้งอยู่บ้านสันปูเลย เลขที่ 66 หมู่ที่ 1 บ้านสันปูเลย ตำบลสันปูเลย อำเภอดอยสะเก็ด จังหวัดเชียงใหม่ สังกัดคณะสงฆ์มหานิกาย ในบริเวณวัดสันปูเลยสะหลีเวียงแก้ว มีเนื้อที่ 12 ไร่เศษฯ เป็นที่ตั้งมูลนิธิพระครูบาน้อย เขมปัญโญ “เพื่อสงเคราะห์เลี้ยงเด็กกำพร้าผู้ยากไร้และการสาธารณสงเคราะห์” และสมาคมศิษย์วัดสันปูเลยสะหลีเวียงแก้ว จังหวัดเชียงใหม่
+วัดสันปูเลยสะหลีเวียงแก้ว…
+
+> Source: [วัดสันปูเลยสะหลีเวียงแก้ว](https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B8%AA%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7) — CC BY-SA 4.0
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->

@@ -1,0 +1,48 @@
+---
+id: "pakhup-temple"
+name_th: วัดบ้านผากุบ
+name_roman: Pakhup Temple
+aliases:
+  - Pakhup Temple
+  - วัดบ้านผากุบ
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 20.395225
+lng: 100.291733
+geo_precision: block
+province: Chiang Rai
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: ""
+founded: ""
+status: active
+description: ""
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: osm, ref: node/6405412485}
+photo_count: 0
+article_langs: []
+---
+
+# Pakhup Temple
+*วัดบ้านผากุบ*
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->

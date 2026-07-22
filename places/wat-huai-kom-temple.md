@@ -1,0 +1,48 @@
+---
+id: "wat-huai-kom-temple"
+name_th: วัดห้วยขม
+name_roman: Wat Huai Kom temple
+aliases:
+  - Wat Huai Kom temple
+  - วัดห้วยขม
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 19.989122
+lng: 99.756652
+geo_precision: block
+province: Chiang Rai
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: ""
+founded: ""
+status: active
+description: ""
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: osm, ref: node/7461678288}
+photo_count: 0
+article_langs: []
+---
+
+# Wat Huai Kom temple
+*วัดห้วยขม*
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->

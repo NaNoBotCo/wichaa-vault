@@ -1,0 +1,48 @@
+---
+id: "wat-nam-sai"
+name_th: วัดน้ำใส
+name_roman: Wat Nam Sai
+aliases:
+  - วัดน้ำใส
+  - Wat Nam Sai
+type: wat
+type_en: Buddhist temple (monastery)
+lat: 18.81562
+lng: 100.859143
+geo_precision: block
+province: Nan
+district: ""
+subdistrict: ""
+street: ""
+heritage_reg: ""
+founded: ""
+status: active
+description: ""
+phone: ""
+email: ""
+website: ""
+opening_hours: ""
+confidence: crawled
+restricted: false
+restricted_reason: ""
+parking: ""
+gate_hours: ""
+access: ""
+driver_notes: ""
+walk_cluster: ""
+story_hook: ""
+visit_minutes: ""
+sources:
+  - {type: osm, ref: node/1894224200}
+photo_count: 0
+article_langs: []
+---
+
+# Wat Nam Sai
+*วัดน้ำใส*
+
+## Notes
+
+<!-- Field notes go here. Anything you write below is yours, not the
+     crawler's — set confidence: verified and add a field source when
+     you have stood in front of it. -->
