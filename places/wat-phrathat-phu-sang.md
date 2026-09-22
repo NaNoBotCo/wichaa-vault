@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.651784
 lng: 100.378245
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดพระธาตุภูซาง, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%A0%E0%B8%B9%E0%B8%8B%E0%B8%B2%E0%B8%87"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
 photo_count: 0
 article_langs:
   - th

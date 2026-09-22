@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.181944
 lng: 99.905
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดป่าแดงบุญนาค, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B8%99%E0%B8%B2%E0%B8%84"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
 photo_count: 1
 article_langs:
   - th

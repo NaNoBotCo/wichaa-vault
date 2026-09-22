@@ -10,12 +10,16 @@ type_en: Buddhist temple (monastery)
 lat: 19.176667
 lng: 99.889722
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03560101003"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1524
 status: active
 description: "Buddhist temple in Phayao province, Thailand"
 phone: ""
@@ -35,8 +39,14 @@ visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q13020844}
   - {type: wikipedia, ref: วัดศรีโคมคำ, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B8%84%E0%B8%B3"}
+  - {type: onab_register, ref: "03560101003", edition: B.E. 2567, match: "province+exact+vault-duplicate", fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
+  wat_code: {source: onab_register, ref: "03560101003", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03560101003", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03560101003", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03560101003", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

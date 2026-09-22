@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 18.280833
 lng: 99.384167
 geo_precision: block
-province: Lamphun
+province: Lampang
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดปงยางคก, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%87%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%81"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-52", confidence: verified}
 photo_count: 3
 article_langs:
   - th

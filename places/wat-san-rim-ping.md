@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03510106007"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1633
 status: active
 description: "Buddhist temple in Lamphun province, Thailand"
 phone: ""
@@ -36,8 +40,13 @@ sources:
   - {type: osm, ref: way/1462702007}
   - {type: wikidata, ref: Q105886721}
   - {type: wikipedia, ref: วัดสันริมปิง, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9B%E0%B8%B4%E0%B8%87"}
+  - {type: onab_register, ref: "03510106007", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03510106007", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03510106007", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03510106007", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03510106007", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

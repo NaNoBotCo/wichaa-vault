@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 17.673056
 lng: 100.033611
 geo_precision: block
-province: Lampang
+province: Uttaradit
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดเจดีย์คีรีวิหาร, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%84%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-53", confidence: verified}
 photo_count: 1
 article_langs:
   - th

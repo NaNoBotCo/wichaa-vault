@@ -16,6 +16,10 @@ subdistrict: ""
 street: 2 Samlarn Rd
 heritage_reg: ""
 founded: ""
+wat_code: "03500102006"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1377
 status: active
 description: ""
 phone: ""
@@ -34,6 +38,12 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: osm, ref: way/93414647}
+  - {type: onab_register, ref: "03500102006", edition: B.E. 2567, match: province+fuzzy, fetched: "2026-08-17"}
+provenance:
+  wat_code: {source: onab_register, ref: "03500102006", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03500102006", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03500102006", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03500102006", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs: []
 ---

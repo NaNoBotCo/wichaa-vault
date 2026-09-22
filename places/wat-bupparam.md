@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03500105004"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1496
 status: active
 description: "Buddhist temple in Chiang Mai, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/261336735}
   - {type: wikidata, ref: Q1167874}
   - {type: wikipedia, ref: วัดบุพพาราม (จังหวัดเชียงใหม่), lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B8%E0%B8%9E%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_(%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)"}
+  - {type: onab_register, ref: "03500105004", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q1167874, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03500105004", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03500105004", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03500105004", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03500105004", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

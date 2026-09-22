@@ -10,7 +10,7 @@ type_en: cave
 lat: 20.38119
 lng: 99.86761
 geo_precision: block
-province: ""
+province: Chiang Rai
 district: ""
 subdistrict: ""
 street: ""
@@ -34,6 +34,8 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q14752104}
+provenance:
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-57", confidence: verified}
 photo_count: 3
 article_langs: []
 ---

@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 17.62037
 lng: 99.827572
 geo_precision: block
-province: Lampang
+province: Sukhothai
 district: ""
 subdistrict: ""
 street: ""
@@ -34,6 +34,8 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q139964464}
+provenance:
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-64", confidence: verified}
 photo_count: 1
 article_langs: []
 ---

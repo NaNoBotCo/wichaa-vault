@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.179444
 lng: 99.936667
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดป่าสักคำ, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%84%E0%B8%B3"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
 photo_count: 0
 article_langs:
   - th

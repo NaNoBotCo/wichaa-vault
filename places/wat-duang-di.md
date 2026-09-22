@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03500101010"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1367
 status: active
 description: "Buddhist temple in Chiang Mai province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/261339003}
   - {type: wikidata, ref: Q18046080}
   - {type: wikipedia, ref: วัดดวงดี, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B5"}
+  - {type: onab_register, ref: "03500101010", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q18046080, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03500101010", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03500101010", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03500101010", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03500101010", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

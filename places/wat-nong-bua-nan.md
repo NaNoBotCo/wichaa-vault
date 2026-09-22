@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03550602001"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1672
 status: active
 description: "Buddhist temple in Tha Wang Pha district, Nan province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: node/4662468789}
   - {type: wikidata, ref: Q99641196}
   - {type: wikipedia, ref: วัดหนองบัว (อำเภอท่าวังผา), lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%9A%E0%B8%B1%E0%B8%A7_(%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%9C%E0%B8%B2)"}
+  - {type: onab_register, ref: "03550602001", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q99641196, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03550602001", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03550602001", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03550602001", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03550602001", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

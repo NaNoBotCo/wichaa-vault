@@ -18,7 +18,7 @@ heritage_reg: ""
 founded: ""
 status: active
 description: ""
-phone: 0815955951
+phone: "0815955951"
 email: "watdoitepminit@gmail.com"
 website: "http://www.watdoitepnimit.net"
 opening_hours: "Mo-Su 07:00-19:00"

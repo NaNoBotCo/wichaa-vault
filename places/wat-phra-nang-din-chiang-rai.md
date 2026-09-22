@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.498333
 lng: 100.324444
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดพระนั่งดิน, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%94%E0%B8%B4%E0%B8%99"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
 photo_count: 1
 article_langs:
   - th

@@ -16,6 +16,10 @@ subdistrict: ""
 street: 42 Thanon Phra Kaow
 heritage_reg: ""
 founded: ""
+wat_code: "03520101010"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1813
 status: active
 description: ""
 phone: ""
@@ -34,6 +38,12 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: osm, ref: way/1373015345}
+  - {type: onab_register, ref: "03520101010", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
+provenance:
+  wat_code: {source: onab_register, ref: "03520101010", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03520101010", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03520101010", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03520101010", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs: []
 ---

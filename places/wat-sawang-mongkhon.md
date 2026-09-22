@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.491667
 lng: 98.973889
 geo_precision: block
-province: Mae Hong Son
+province: Chiang Mai
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดสว่างมงคล, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%87%E0%B8%84%E0%B8%A5"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-50", confidence: verified}
 photo_count: 0
 article_langs:
   - th

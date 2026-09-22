@@ -1,7 +1,7 @@
 ---
 kind: vocabulary
 axis: place-type
-updated: 2026-07-22
+updated: 2026-08-08
 ---
 
 # Place types
@@ -60,6 +60,45 @@ Treat them as you would any `crawled` field.
   definition: >
     Shrine to ancestral spirits — literally grandfather/grandmother — often for
     the previous custodians of the ground.
+
+- key: san
+  term: ศาล
+  roman: san
+  en_gloss: shrine (kind not yet determined)
+  confidence: high
+  note: >
+    The emic parent term: Thai speakers say ศาล of every shrine below. Use it
+    when a source attests a shrine but not which kind — it is one field visit
+    away from becoming san_phra_phum, san_chao_thi, or a sibling (the pillar
+    count and the occupant usually settle it). Like sacred_site it is a term to
+    grow out of, but unlike sacred_site it already says something true.
+
+- key: san_chao
+  term: ศาลเจ้า
+  roman: san chao
+  en_gloss: Sino-Thai shrine (joss house)
+  confidence: medium
+  needs_verification: true
+  definition: >
+    Shrine in the Chinese ritual grammar — Pun Thao Kong, Guan Yin, Guan Yu and
+    kin. Joss paper burned rather than food withdrawn; incense in threes; red
+    and gold. A neighbour of the Thai shrines, not a subtype of them.
+  distinct_from: [san_chao_thi]
+  note: >
+    ศาลเจ้า and ศาลเจ้าที่ differ by one syllable and by an entire ritual
+    system. Any matcher working from names must test the longer string first.
+
+- key: san_chao_pho
+  term: ศาลเจ้าพ่อ · ศาลเจ้าแม่
+  roman: san chao pho / san chao mae
+  en_gloss: shrine of a deified lord or lady
+  confidence: medium
+  needs_verification: true
+  definition: >
+    Shrine of a named guardian personage — a chao pho or chao mae, often a
+    historical or legendary figure grown into a protector (city-corner lords,
+    เจ้าปู่ ancestor-lords, royal shrines by extension). Thai and Sino-Thai
+    forms shade into one another; the named occupant is the constant.
 
 - key: wat
   term: วัด

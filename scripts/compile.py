@@ -142,6 +142,15 @@ def main():
         if fm.get("provenance"):
             rec["provenance"] = fm["provenance"]
 
+        # The temple register (ONAB B.E. 2567), merged onto bridged notes by
+        # scripts/enrich_registry.py — WW-1 step 3. Only when present: an empty
+        # code would read as "this temple has no register entry", which for a
+        # shrine is true and for an unmatched wat is merely unknown.
+        for src_key, out_key in (("wat_code", "watCode"), ("wat_sect", "watSect"),
+                                 ("wat_rank", "watRank"), ("wat_founded_ce", "watFoundedCe")):
+            if fm.get(src_key) not in (None, ""):
+                rec[out_key] = fm[src_key]
+
         # Authored fields ride in the payload only when someone has actually said
         # something. An empty string published as a value reads like an assertion
         # that the answer is blank.

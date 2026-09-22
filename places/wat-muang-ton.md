@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03510303002"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1826
 status: active
 description: "Buddhist temple in Lamphun province, Thailand"
 phone: ""
@@ -36,8 +40,13 @@ sources:
   - {type: osm, ref: way/315302213}
   - {type: wikidata, ref: Q16004359}
   - {type: wikipedia, ref: วัดม่วงโตน, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%82%E0%B8%95%E0%B8%99"}
+  - {type: onab_register, ref: "03510303002", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03510303002", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03510303002", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03510303002", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03510303002", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

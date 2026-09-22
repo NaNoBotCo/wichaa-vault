@@ -10,12 +10,16 @@ type_en: Buddhist temple (monastery)
 lat: 18.05
 lng: 100.12
 geo_precision: block
-province: Lampang
+province: Phrae
 district: ""
 subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03540401002"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1840
 status: active
 description: ""
 phone: ""
@@ -35,8 +39,14 @@ visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q116787833}
   - {type: wikipedia, ref: วัดสูงเม่น, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B9%88%E0%B8%99"}
+  - {type: onab_register, ref: "03540401002", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-54", confidence: verified}
+  wat_code: {source: onab_register, ref: "03540401002", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03540401002", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03540401002", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03540401002", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs:
   - th

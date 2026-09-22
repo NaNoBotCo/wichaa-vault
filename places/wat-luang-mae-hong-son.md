@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03580301002"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1803
 status: active
 description: "Buddhist temple in Mae Hong Son province, Thailand"
 phone: ""
@@ -36,8 +40,13 @@ sources:
   - {type: osm, ref: way/314114131}
   - {type: wikidata, ref: Q105846794}
   - {type: wikipedia, ref: วัดหลวง (จังหวัดแม่ฮ่องสอน), lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_(%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99)"}
+  - {type: onab_register, ref: "03580301002", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03580301002", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03580301002", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03580301002", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03580301002", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

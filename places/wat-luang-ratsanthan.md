@@ -10,12 +10,16 @@ type_en: Buddhist temple (monastery)
 lat: 19.168415
 lng: 99.900009
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03560101001"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1482
 status: active
 description: ""
 phone: ""
@@ -35,8 +39,14 @@ visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q111917309}
   - {type: wikipedia, ref: วัดหลวงราชสัณฐาน, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%AA%E0%B8%B1%E0%B8%93%E0%B8%90%E0%B8%B2%E0%B8%99"}
+  - {type: onab_register, ref: "03560101001", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
+  wat_code: {source: onab_register, ref: "03560101001", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03560101001", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03560101001", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03560101001", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs:
   - th

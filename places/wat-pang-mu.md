@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03580104001"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1467
 status: active
 description: ""
 phone: ""
@@ -35,8 +39,13 @@ visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q111008334}
   - {type: wikipedia, ref: วัดปางหมู, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9"}
+  - {type: onab_register, ref: "03580104001", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03580104001", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03580104001", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03580104001", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03580104001", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs:
   - th

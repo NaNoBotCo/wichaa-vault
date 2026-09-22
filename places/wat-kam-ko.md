@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03580101005"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1890
 status: active
 description: "Buddhist temple in Mae Hong Son province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/490728520}
   - {type: wikidata, ref: Q101439305}
   - {type: wikipedia, ref: วัดก้ำก่อ, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B9%89%E0%B8%B3%E0%B8%81%E0%B9%88%E0%B8%AD"}
+  - {type: onab_register, ref: "03580101005", edition: B.E. 2567, match: "province+exact+vault-duplicate", fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q101439305, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03580101005", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03580101005", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03580101005", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03580101005", date: "2026-08-17", confidence: crawled}
 photo_count: 1
 article_langs:
   - th

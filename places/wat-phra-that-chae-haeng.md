@@ -16,6 +16,10 @@ subdistrict: ""
 street: 89
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03551401001"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1353
 status: active
 description: "Buddhist temple in Nan province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/545986811}
   - {type: wikidata, ref: Q6630393}
   - {type: wikipedia, ref: วัดพระธาตุแช่แห้ง, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B9%81%E0%B8%8A%E0%B9%88%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87"}
+  - {type: onab_register, ref: "03551401001", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q6630393, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03551401001", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03551401001", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03551401001", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03551401001", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

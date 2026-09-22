@@ -30,6 +30,14 @@ WIKI = HERE.parent / "manuscript-wiki"
 SRC = Path(os.environ.get("WATS_JSON", WIKI / "data" / "wats.geojson"))
 DETAIL = Path(os.environ.get("WATS_DETAIL", WIKI / "data" / "wats-detail.json"))
 OUT = HERE / "places"
+# The temple register bridge (WW-1). A FRESH note for a bridged place is born
+# with the register's facts; an EXISTING note gets them from enrich_registry.py,
+# because this script never touches a note a person has edited. Both go through
+# vaultlib's registry_* helpers, so they cannot disagree on names or provenance.
+BRIDGE = Path(os.environ.get("WAT_BRIDGE", WIKI / "data" / "wat_bridge.json"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from vaultlib import load_bridge, registry_facts, registry_provenance, registry_source  # noqa: E402
+_BRIDGE_PLACES, _BRIDGE_FETCHED = load_bridge(BRIDGE)
 
 # Which source a field came from, when the crawl produced it. Anything not listed
 # inherits the record default; anything a human later edits gets `field`.
@@ -56,6 +64,12 @@ def yaml_scalar(v):
     if isinstance(v, (int, float)):
         return str(v)
     s = str(v)
+    # A STRING that looks like a number must be quoted, or vaultlib.scalar reads
+    # it back as int and the leading zero is gone: `phone: 0815955951` compiled to
+    # the integer 815955951 in wats.geojson (found 2026-08-19 while adding the
+    # temple register's `wat_code`, which is eleven digits starting with 0).
+    if re.fullmatch(r"-?\d+(\.\d+)?", s) or s in ("true", "false", "null", "~"):
+        return '"' + s + '"'
     if re.search(r'[:#\-\[\]{},&*?|>%@`"\n]', s) or s.strip() != s:
         return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
     return s
@@ -94,6 +108,14 @@ def note_for(p, det, kind):
         sources = list(sources) + [{"type": "wikipedia", "ref": summ0.get("title"),
                                     "lang": summ0.get("lang"), "url": summ0.get("url")}]
 
+    # The temple register, for a bridged place: four facts, a declared source,
+    # per-field provenance. Same shape enrich_registry.py merges into old notes.
+    breg = _BRIDGE_PLACES.get(pid) or {}
+    reg_facts = registry_facts(breg) if breg else {}
+    if reg_facts:
+        sources = list(sources) + [registry_source(breg, _BRIDGE_FETCHED)]
+        prov.update(registry_provenance(breg, _BRIDGE_FETCHED))
+
     L = ["---"]
     L.append(f"id: {yaml_scalar(pid)}")
     # Only put Thai in the Thai field. Several OSM records carry a romanised
@@ -123,6 +145,8 @@ def note_for(p, det, kind):
     L.append(f"street: {yaml_scalar(p.get('street'))}")
     L.append(f"heritage_reg: {yaml_scalar(p.get('heritage'))}")
     L.append(f"founded: {yaml_scalar(p.get('founded'))}")
+    for rf, rv in reg_facts.items():          # wat_code / wat_sect / wat_rank / wat_founded_ce
+        L.append(f"{rf}: {yaml_scalar(rv)}")
     L.append(f"status: {yaml_scalar(p.get('status') or 'active')}")
     # The one-line Wikidata gloss (CC0). Distinct from `summary`, which is the
     # Wikipedia lead and carries share-alike.

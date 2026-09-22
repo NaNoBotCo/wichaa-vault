@@ -5,8 +5,8 @@ name_roman: Chinese shrine
 aliases:
   - ศาลเจ้าจีน บ้านถ้ำปลา
   - Chinese shrine
-type: wat
-type_en: Buddhist temple (monastery)
+type: san_chao
+type_en: Sino-Thai shrine (joss house)
 lat: 20.326939
 lng: 99.868755
 geo_precision: block
@@ -32,6 +32,8 @@ driver_notes: ""
 walk_cluster: ""
 story_hook: ""
 visit_minutes: ""
+provenance:
+  type: {source: osm, by: claude, date: 2026-08-08, confidence: heuristic}
 sources:
   - {type: osm, ref: way/551266015}
 photo_count: 0
@@ -46,3 +48,5 @@ article_langs: []
 <!-- Field notes go here. Anything you write below is yours, not the
      crawler's — set confidence: verified and add a field source when
      you have stood in front of it. -->
+
+Re-typed from the OSM name ศาลเจ้าจีน บ้านถ้ำปลา (was `wat`, the import default). Heuristic — confirm the ritual grammar on a visit.

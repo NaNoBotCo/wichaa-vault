@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03500102008"
+wat_sect: ธรรมยุต
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1411
 status: active
 description: "Buddhist temple in Chiang Mai, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/243018795}
   - {type: wikidata, ref: Q1454288}
   - {type: wikipedia, ref: วัดเจดีย์หลวงวรวิหาร, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3"}
+  - {type: onab_register, ref: "03500102008", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q1454288, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03500102008", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03500102008", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03500102008", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03500102008", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

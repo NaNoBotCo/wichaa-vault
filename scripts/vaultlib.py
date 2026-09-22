@@ -127,3 +127,56 @@ def vocab_terms(vocab_md: Path):
     for t in terms:
         t.pop("_folding", None)
     return terms
+
+
+# ---- the temple register (ONAB, B.E. 2567) — WW-1 step 3 ----------------------
+# manuscript-wiki/scripts/bridge_wat_registry.py joins the register code stamped
+# on 6,203 manuscripts to the vault place that stands in the landscape, and
+# writes manuscript-wiki/data/wat_bridge.json. These helpers are the ONE place
+# that turns a bridge record into vault fields, so migrate.py (which emits fresh
+# notes) and enrich_registry.py (which merges into existing notes) cannot drift
+# on field names or provenance.
+REGISTRY_SOURCE = "onab_register"
+REGISTRY_FIELDS = ("wat_code", "wat_sect", "wat_rank", "wat_founded_ce")
+
+
+def registry_facts(bridge_rec):
+    """Bridge record → {vault field: value}. Only facts the register asserts;
+    the bridge's manuscript COUNT is deliberately left out (it is a catalogue
+    number that goes stale, and the place pages compute it live)."""
+    out = {}
+    if bridge_rec.get("wat_code"):
+        out["wat_code"] = str(bridge_rec["wat_code"])
+    if bridge_rec.get("sect"):
+        out["wat_sect"] = str(bridge_rec["sect"])
+    if bridge_rec.get("rank"):
+        out["wat_rank"] = str(bridge_rec["rank"])
+    fc = bridge_rec.get("founded_ce")
+    if isinstance(fc, int) or (isinstance(fc, str) and fc.strip().isdigit()):
+        out["wat_founded_ce"] = int(fc)
+    return out
+
+
+def registry_source(bridge_rec, fetched):
+    """The sources[] entry a bridged note declares, so provenance can cite it."""
+    return {"type": REGISTRY_SOURCE, "ref": str(bridge_rec.get("wat_code") or ""),
+            "edition": "B.E. 2567", "match": bridge_rec.get("matched_how") or "",
+            "fetched": fetched}
+
+
+def registry_provenance(bridge_rec, fetched):
+    """Per-field provenance for every register fact — crawled, never verified."""
+    return {f: {"source": REGISTRY_SOURCE, "ref": str(bridge_rec.get("wat_code") or ""),
+                "date": fetched, "confidence": "crawled"}
+            for f in registry_facts(bridge_rec)}
+
+
+def load_bridge(path: Path):
+    """→ (places dict, fetched date 'YYYY-MM-DD'). Missing file → ({}, '')."""
+    import datetime as _dt
+    import json as _json
+    if not path.is_file():
+        return {}, ""
+    d = _json.loads(path.read_text(encoding="utf-8"))
+    fetched = _dt.date.fromtimestamp(path.stat().st_mtime).isoformat()
+    return d.get("places") or {}, fetched

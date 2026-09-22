@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: 1886
+wat_code: "03500101018"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1886
 status: active
 description: "Buddhist temple in Mueang Chiang Mai district, Chiang Mai province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: node/1445519696}
   - {type: wikidata, ref: Q108550882}
   - {type: wikipedia, ref: วัดป่าเป้า (อำเภอเมืองเชียงใหม่), lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2_(%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)"}
+  - {type: onab_register, ref: "03500101018", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   founded: {source: wikidata, ref: Q108550882, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03500101018", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03500101018", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03500101018", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03500101018", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

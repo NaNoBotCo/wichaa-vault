@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03550101003"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1403
 status: active
 description: "Buddhist temple in Nan province, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/246814232}
   - {type: wikidata, ref: Q16004222}
   - {type: wikipedia, ref: วัดพระธาตุช้างค้ำวรวิหาร, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3"}
+  - {type: onab_register, ref: "03550101003", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q16004222, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03550101003", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03550101003", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03550101003", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03550101003", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

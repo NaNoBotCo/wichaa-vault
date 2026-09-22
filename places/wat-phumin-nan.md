@@ -16,6 +16,10 @@ subdistrict: ""
 street: ผากอง
 heritage_reg: registered Thai historic site
 founded: ""
+wat_code: "03550101006"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1595
 status: active
 description: "Buddhist temple in Nan, Thailand"
 phone: ""
@@ -36,9 +40,14 @@ sources:
   - {type: osm, ref: way/246657153}
   - {type: wikidata, ref: Q588172}
   - {type: wikipedia, ref: วัดภูมินทร์, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C"}
+  - {type: onab_register, ref: "03550101006", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q588172, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03550101006", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03550101006", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03550101006", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03550101006", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

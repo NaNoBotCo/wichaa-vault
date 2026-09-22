@@ -10,12 +10,16 @@ type_en: Buddhist temple (monastery)
 lat: 18.143804
 lng: 100.140671
 geo_precision: block
-province: Lampang
+province: Phrae
 district: ""
 subdistrict: ""
 street: ""
 heritage_reg: ""
 founded: ""
+wat_code: "03540101007"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 1857
 status: active
 description: ""
 phone: ""
@@ -35,8 +39,14 @@ visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q13020762}
   - {type: wikipedia, ref: วัดพระบาทมิ่งเมืองวรวิหาร, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%97%E0%B8%A1%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3"}
+  - {type: onab_register, ref: "03540101007", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-54", confidence: verified}
+  wat_code: {source: onab_register, ref: "03540101007", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03540101007", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03540101007", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03540101007", date: "2026-08-17", confidence: crawled}
 photo_count: 0
 article_langs:
   - th

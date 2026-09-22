@@ -16,6 +16,10 @@ subdistrict: ""
 street: ""
 heritage_reg: registered Thai historic site
 founded: 1489
+wat_code: "03570801005"
+wat_sect: มหานิกาย
+wat_rank: วัดราษฎร์
+wat_founded_ce: 1489
 status: active
 description: "Buddhist temple in Chiang Rai province, Thailand"
 phone: ""
@@ -36,10 +40,15 @@ sources:
   - {type: osm, ref: way/527542325}
   - {type: wikidata, ref: Q14754198}
   - {type: wikipedia, ref: วัดพระเจ้าล้านทอง, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%87"}
+  - {type: onab_register, ref: "03570801005", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q14754198, confidence: crawled}
   founded: {source: wikidata, ref: Q14754198, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03570801005", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03570801005", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03570801005", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03570801005", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - th

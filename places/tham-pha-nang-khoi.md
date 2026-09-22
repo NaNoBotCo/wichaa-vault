@@ -10,7 +10,7 @@ type_en: cave
 lat: 18.369722
 lng: 100.353889
 geo_precision: block
-province: ""
+province: Phrae
 district: ""
 subdistrict: ""
 street: ""
@@ -34,6 +34,8 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q49319835}
+provenance:
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-54", confidence: verified}
 photo_count: 0
 article_langs: []
 ---

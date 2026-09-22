@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 19.184032
 lng: 99.888458
 geo_precision: block
-province: Chiang Rai
+province: Phayao
 district: ""
 subdistrict: ""
 street: ""
@@ -34,6 +34,8 @@ story_hook: ""
 visit_minutes: ""
 sources:
   - {type: wikidata, ref: Q13020744}
+provenance:
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-56", confidence: verified}
 photo_count: 4
 article_langs: []
 ---

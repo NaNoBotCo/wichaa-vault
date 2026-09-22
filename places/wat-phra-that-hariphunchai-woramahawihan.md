@@ -16,6 +16,10 @@ subdistrict: ""
 street: Thanon Rop Mueang Nai
 heritage_reg: registered Thai historic site
 founded: 1044
+wat_code: "03510101004"
+wat_sect: มหานิกาย
+wat_rank: พระอารามหลวง
+wat_founded_ce: 897
 status: active
 description: "Buddhist temple in Lampang province, Thailand"
 phone: ""
@@ -36,10 +40,15 @@ sources:
   - {type: osm, ref: way/361393589}
   - {type: wikidata, ref: Q2552374}
   - {type: wikipedia, ref: วัดพระธาตุหริภุญชัยวรมหาวิหาร, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%AB%E0%B8%A3%E0%B8%B4%E0%B8%A0%E0%B8%B8%E0%B8%8D%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3"}
+  - {type: onab_register, ref: "03510101004", edition: B.E. 2567, match: province+exact, fetched: "2026-08-17"}
 provenance:
   heritage_reg: {source: wikidata, ref: Q2552374, confidence: crawled}
   founded: {source: wikidata, ref: Q2552374, confidence: crawled}
   summary: {source: wikipedia, confidence: crawled}
+  wat_code: {source: onab_register, ref: "03510101004", date: "2026-08-17", confidence: crawled}
+  wat_sect: {source: onab_register, ref: "03510101004", date: "2026-08-17", confidence: crawled}
+  wat_rank: {source: onab_register, ref: "03510101004", date: "2026-08-17", confidence: crawled}
+  wat_founded_ce: {source: onab_register, ref: "03510101004", date: "2026-08-17", confidence: crawled}
 photo_count: 4
 article_langs:
   - en

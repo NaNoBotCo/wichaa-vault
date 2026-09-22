@@ -10,7 +10,7 @@ type_en: Buddhist temple (monastery)
 lat: 17.670833
 lng: 100.028056
 geo_precision: block
-province: Lampang
+province: Uttaradit
 district: ""
 subdistrict: ""
 street: ""
@@ -37,6 +37,7 @@ sources:
   - {type: wikipedia, ref: วัดท้องลับแล, lang: th, url: "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%A5"}
 provenance:
   summary: {source: wikipedia, confidence: crawled}
+  province: {source: field, by: nan, date: 2026-08-09, method: "point-in-polygon against OSM admin_level=4 changwat boundary TH-53", confidence: verified}
 photo_count: 1
 article_langs:
   - th
